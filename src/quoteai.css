@@ -1,7 +1,10 @@
 body {
-    background-color: pink;
+    background-color: white;
 }
 #kllogo {
     width: 300px;
-    height: 65px;
+    height: 75px;
+}
+#quotePL{
+    padding: 50px;
 }
