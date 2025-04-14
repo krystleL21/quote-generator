@@ -23,14 +23,14 @@ header {
 #quotePL{
     font-size: 14px;
     background-color: white;
-    padding: 50px;
-    line-height: 2px;
+    padding: 20px;
+    line-height: 2;
     border-left: 3px solid #363732;
     border-radius: 10px;
     box-shadow:0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 a {
-    color: #D4afb9;
+    color: #885df1;
 }
 form {
     padding: 30px;
@@ -64,4 +64,7 @@ footer {
     text-align: center;
     font-size: 13px;
     margin-top: 30px;
+}
+.quotePL strong {
+ color:  #885df1;   
 }
