@@ -18,6 +18,10 @@ function generateQuote(event) {
   let context = "You are a expert in quote writing and love to write short quotes. Your mission is to generate a 3 line quotes in basic HTML and separate each line with a <br />. Make sure to follow the user instructions. Do not include a title to the quote. Sign at the end of the quote with 'SheCodes AI' inside a <strong> element and NOT at the beginning. Do not include 'html' and '''''";
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let quoteElement = document.querySelector("#quotePL");
+    quoteElement.classList.remove("hidden");
+    quoteElement.innerHTML = `⌚ Generating a quote about ${instructionsInput.value}`;
+
   axios.get(apiURL).then(displayQuote);
       }
       
